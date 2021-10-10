@@ -6,7 +6,7 @@ screen = Screen()
 tim = Turtle()
 tim.shape("circle")
 tim.color("white")
-tim.shapesize(1.3)
+tim.shapesize(1)
 screen.colormode(255)
 my_start = (-220, 220)
 tim.penup()
@@ -34,7 +34,7 @@ def draw(space, x):
         for j in range(x):
             # dot
             tim.color(random.choice(color))
-            tim.dot(30)
+            tim.dot(20)
 
             # distance for another dot
             tim.forward(space)
